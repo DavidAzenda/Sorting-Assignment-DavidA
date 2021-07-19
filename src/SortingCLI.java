@@ -2,7 +2,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 /**
- * 
+ * This class handles the command line interface for this assignment
  */
 public class SortingCLI {
 	
@@ -20,6 +20,7 @@ public class SortingCLI {
 	
 	/**
 	 * Implements the user dialog
+	 * Asks for the user input and executes based on the response
 	 * @throws IOException 
 	 */
 	public void run() throws IOException {
